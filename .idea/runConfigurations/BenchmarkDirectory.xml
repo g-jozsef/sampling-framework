@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="BenchmarkDirectory" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="hu.elte.inf.sampling.datagenerator.BenchmarkDirectory" />
+    <module name="benchmark" />
+    <option name="VM_PARAMETERS" value="-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Xms6g -Xmx10g" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="systems.evolving.sampling.datagenerator.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>

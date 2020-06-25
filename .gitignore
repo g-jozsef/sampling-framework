@@ -1,0 +1,11 @@
+/.idea/*
+!/.idea/runConfigurations
+/build/
+target
+/push/project/
+/project/project/
+/common/project/
+
+*.orig
+/*/*.iml
+/datastreams/

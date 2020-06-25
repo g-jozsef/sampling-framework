@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Benchmark" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="hu.elte.inf.sampling.datagenerator.BenchmarkComplexA" />
+    <module name="benchmark" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="systems.evolving.sampling.datagenerator.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2" />
+  </configuration>
+</component>
